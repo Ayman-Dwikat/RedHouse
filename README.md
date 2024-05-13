@@ -17,3 +17,6 @@ The end result is a software solution that empowers landlords to identify the mo
 customers for their properties while assisting customers in finding properties that align with
 their specific requirements. Additionally, our platform offers robust contract and payment
 management services to facilitate self-tracking of transactions or collaboration with a lawyer.
+
+[Demo and project report delivered on Google Drive](https://drive.google.com/drive/folders/1mgCpFYY66Ybi2Ok7_KHn9gIJC5QdLg7i?fbclid=IwAR2y1qwaAjD7zhmYKzOvhwVDzumK1R6AgCxEt-QxBhPmrrzHverAKuj-I1Q)
+
