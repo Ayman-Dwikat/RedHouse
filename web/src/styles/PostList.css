@@ -1,0 +1,60 @@
+
+
+
+
+.post-list{
+    flex-shrink: 0;
+    margin-top: var(--bs-gutter-y);
+    max-width: 100%;
+    padding-left: 0.3px;
+    padding-right: 0.3px;
+    width: 100%;
+}
+
+
+.pagination{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    font-size: 0.9rem;
+    gap: 5px;
+}
+
+.pagination .page-num{
+    padding: 8px 15px;
+    margin: 0px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 400;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.pagination .page-num:hover{
+    background-color: black;
+    color: white;
+}
+
+.pagination .active{
+    background-color: black;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 670px) {
+    .pagination .page-num{
+        margin: 0px 0px;
+        padding: 4px 5px;
+    }
+}
+
+
+.map-wrap {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 120px);
+  }

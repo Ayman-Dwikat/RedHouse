@@ -1,0 +1,120 @@
+
+
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #d8d8d8;
+}
+
+
+.input-wrapper {
+    border: solid;
+    border-color: #000;
+    border-width: 1px;
+    transform: scale(1) !important;
+    border-radius: 10px;
+}
+
+.input-wrapper .search-icon-span { 
+       background-color:  #000;
+
+    color: #ffffff;
+    transform: scale(1) !important;
+}
+.search-icon-span{
+    background-color: rgb(240, 236, 236);
+    width: 60px;
+    height: 2.5rem;
+    color: #585855;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0;
+    z-index: 100;
+    margin: 0;
+    padding-left: 4px;
+    transition:.4s;
+    cursor: pointer;
+}
+.search-icon-span:hover{
+    background-color: #a2f508;
+}
+
+.palceholder{
+    border: none;
+    background-color:  #ffffff;
+    width: 580px;
+    border-radius: 10px 0px 0px 10px;
+    height: 2.5rem;
+    padding: 0 15px;
+    box-shadow: 0px 0px 8px #ddd;
+    display: flex;
+    align-items: center;
+    transition:.5s;
+    font-size: 22px;
+}
+
+ .palceholder:focus{
+    outline: none;
+ }
+ /*  background-color:  #ffffff;
+    border: solid;
+    border-color: #00BF63;
+    border-width: 1px;
+} */
+
+.palceholder:hover {
+    background-color:  #ffffff;
+
+}
+
+#search-icon{
+    font-size: 22px;
+    margin-right: 8px;
+}
+.palceholder::placeholder {
+    font-size: 20px; /* Adjust the size as needed */
+}
+
+
+
+.searchBarCon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note-search{
+    color: #adabab;
+    font-size: 11px;
+    margin-bottom: 5px;
+    transition:.9s;
+}
+
+.searchBarCon:hover .note-search {
+    font-size: 16px;
+  transform: scale(1) !important;
+}
+
+
+@media only screen and (max-width: 670px) {
+    .palceholder{
+        width: 300px;
+
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .palceholder{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .palceholder{
+        width: 100px;
+    }
+}

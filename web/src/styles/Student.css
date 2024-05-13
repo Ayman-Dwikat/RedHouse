@@ -1,0 +1,120 @@
+#user-name{
+    font-weight: 650;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+
+
+#student-container{    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-name:hover{
+    border-radius: 4px;
+    background-color: white;
+    color: #00BF63;
+    transform: scale(1) !important;
+
+}
+
+
+#disableRow {
+    display: none;
+}
+
+
+#profile-pic{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.btn-started{
+    padding: 5px 35px;
+    background-color: #00BF63;
+    height: 35px;
+    border-color: #00BF63 ;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    transition:.3s;
+    text-decoration: none;
+}
+
+.play{
+    margin-right: 8px;
+}
+.pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+
+#profile-info{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.btn-started:hover{
+    background-color:  white;
+    border: solid;
+    border-width: 1px;
+    color: #00BF63;
+    border-color: #00BF63;
+    transform: scale(1) !important;
+}
+
+
+#right-profile{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.language{
+    font-size: 800;
+}
+
+.status{
+    font-size: 800;
+}
+
+.for-font{
+    font-weight: 700;
+
+}
+
+.student-line{
+    margin-top: 30px;
+    margin-bottom: 107px;
+}
+
+@media only screen and (max-width: 670px) {
+    #student-container{    
+        margin-left: 12px;
+    }
+
+    #left-profile{
+        justify-content: center;
+        align-items: center;
+    }
+}

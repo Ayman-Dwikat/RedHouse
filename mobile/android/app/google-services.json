@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "538040643821",
+    "project_id": "redhouse-b61f4",
+    "storage_bucket": "redhouse-b61f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538040643821:android:707da814f222a443349ce4",
+        "android_client_info": {
+          "package_name": "com.example.client"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUibetIn4R1WkUl4chxYWrWqlQQZvdbts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

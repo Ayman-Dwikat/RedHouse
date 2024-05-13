@@ -1,0 +1,121 @@
+
+
+
+
+
+.big-wrapper{
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#row-items{
+    min-height: 25.2vh;
+    margin: 40px 0;
+}
+
+
+
+#reset-visits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-weight: 700;
+    transition:.5s;
+    border: solid;
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-color: #e99f9f;
+    height: 20px;
+    color: #e99f9f;;
+    width: 200px;
+    
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    height: 5px;
+}
+
+
+#reset-visits:hover{
+    background-color: rgb(253, 53, 53);
+    color: rgb(255, 255, 255);
+    border-color: black;
+    transform: scale(1) !important;
+    border-color: white ;
+    height: 28px;
+}
+
+#table-row{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.filters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#statistics{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.l-search{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 650;
+    text-align: center;
+}
+
+#right-side{
+    /* margin: 10px; */
+    position: relative;
+    /* width: 100%; */
+    max-height: 95vh;
+    /* display: flex; */
+    overflow: scroll;
+    /* flex-direction: column;
+    justify-content: flex-start; */
+    justify-content: start;
+}
+
+.l-number{
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 870px) {
+    .reset{
+        font-size: small;
+        margin-bottom: 15px;
+    }
+    .l-number{
+        text-align: center;
+    }
+    .number{
+        text-align: center;
+    }
+}

@@ -1,0 +1,57 @@
+
+
+
+.list-item{
+    list-style: none;
+    margin: 0.4em 0;
+    background-color: #9fa1a07c;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5em;
+    justify-content: space-between;
+    width: 100%;
+    .file-item-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .file-name{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            margin-left: 8px;
+        }
+    }
+
+    .action{
+        justify-self: flex-end;
+        cursor: pointer;
+
+        .fa-spinner{
+            font-size: 1.2em;
+        }
+    }
+
+    svg{
+        color: aliceblue;
+        &:first-child{
+            font-size: 1.2em;
+            margin-right: 0.8em;
+        }
+    }
+}
+
+#trash-file-icon:hover{
+    color: #00BF63;
+}
+
+.file-item-left{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.file-name{
+    padding-top: 5px;
+}

@@ -1,0 +1,52 @@
+
+
+.post-title{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+
+
+.post-description{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#filesList{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.filesPost{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 140px;
+}
+
+
+.file-line{
+    margin-bottom: 24vh;
+}
+
+#readMore{
+    font-weight: 300;
+    color: #00BF63;
+}
+#readMore:hover{
+    color:  #809c01;
+}
+
+
+#post-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+.post-title{
+    
+}

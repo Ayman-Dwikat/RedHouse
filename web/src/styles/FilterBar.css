@@ -1,0 +1,58 @@
+
+
+
+
+#search-icon-f{
+    margin: 10px 10px;
+    color: white,
+}
+
+.input-wrapper-f{
+    width: 280px;
+    background-color:  #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 8px;
+    margin-top: 8px;
+    border-radius: 13px;
+}
+
+.input-wrapper-f:hover {
+    background-color:  #000;
+    border: solid;
+    border-color: #000;
+    border-width: 1px;
+}
+
+.input-f{
+
+}
+
+.input-f::placeholder{
+    color: black;
+    font-size: 18px;
+}
+
+#react-select{
+    width: 100%;
+
+}
+
+#react-select::placeholder{
+    color: black;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 450px) {
+    .palceholder{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .input-wrapper-f{
+        width: 250px;
+    }
+}

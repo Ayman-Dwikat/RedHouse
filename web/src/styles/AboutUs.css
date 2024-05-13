@@ -1,0 +1,42 @@
+
+
+#about{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    flex-direction: column;
+    font-weight: 600;
+    min-height: 72vh;
+    background-color: #f4f4f4; /* Background color */
+    padding: 20px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    margin-bottom: 50px;
+    font-weight: bold; /* Bold text */
+    color: #333; /* Text color */
+}
+
+.about-para{
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px; /* Font size for the paragraph */
+    line-height: 1.5; /* Line height for readability */
+    color: #666; /* Text color */
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #about{
+        min-height: 88vh;
+
+    }
+
+    .title{
+        display: none;
+    }
+}
+

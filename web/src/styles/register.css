@@ -1,0 +1,124 @@
+
+
+
+input[type="file"]{
+    display: none;
+}
+
+.file-lable{
+    border: solid;
+    height: 35px;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 0 0 0 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 6px;
+}
+
+.select-profile{
+    font-size: 18px;
+}
+
+.label-uploading{
+    height: 35px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a4c728;
+    font-weight: 700;
+    transition:.3s;
+}
+
+.fa-spin-icon{
+    margin-left: 15px;
+}
+
+
+.input-name{
+    width: 120px;
+    height: 35px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.input-name:focus{
+    outline: auto;
+    box-shadow: 0px 0px 8px #ddd
+}
+
+.input-field-name{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.input:focus{
+    outline: auto;
+    box-shadow: 0px 0px 8px #ddd
+}
+
+#file-icon{
+    margin-right: 4px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .input-box-signup {
+        margin-bottom: 100px;
+    }
+    .input-box-signup header{
+        display: none;
+    }
+
+}
+
+.input-box-signup{
+    width: 280px;
+    box-sizing: border-box;
+}
+
+.input-box-signup header{
+    font-weight: 300;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing:.2rem;
+}
+
+#languages{
+    border: solid;
+    border-width: 1px;
+}
+
+#row-signup{
+    width: 1100px;
+    height: 800px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.4); /* Add a shadow effect */}
+
+.file-lable{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.signup span a{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+
+}
+
+.signup span a:hover{
+    color: #00BF63;
+
+}
+

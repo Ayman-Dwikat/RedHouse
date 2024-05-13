@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HzmS/taq8HgWTxHTMZyJWuLHAjPre29ZxUt9fzAdWg4=",
+  "Source": "BlueHouse_Server",
+  "BasePath": "_content/BlueHouse_Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

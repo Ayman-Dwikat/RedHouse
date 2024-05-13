@@ -1,0 +1,35 @@
+
+
+
+#download-file-icon{
+    margin-right: 30px;
+    transform: scale(1) !important;
+    color: black;
+}
+
+#download-file-icon:hover{
+    color: #00BF63;
+    transition:.3s;
+
+}
+
+#trash-file-icon{
+    margin-right: 25px;
+}
+
+
+
+
+  
+  .file-name {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 35px;
+    color: #67771d;
+}
+  
+
+  .file-name:hover {
+    color: #9cbf00;
+  }

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HlSKu+Wu6OaNOKfqTq/qTVGPcf2e05+jr+L/lQ1bA9k=",
+  "Source": "RedHouse_Server",
+  "BasePath": "_content/RedHouse_Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

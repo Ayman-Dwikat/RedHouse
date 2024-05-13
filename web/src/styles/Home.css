@@ -1,0 +1,348 @@
+
+
+
+.bit-title{
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+#people-img{
+    position: relative;
+}
+
+
+.row > * {
+    flex-shrink: 0;
+    margin-top: var(--bs-gutter-y);
+    max-width: 100%;
+    /* padding-left: calc(var(--bs-gutter-x)*.5); */
+    /* padding-right: calc(var(--bs-gutter-x)*.5); */
+    width: 100%;
+}
+
+
+#right{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left{
+}
+
+section.hero .text{
+    font-size: 20px;
+    margin: 25px 0  25px;
+    font-weight: 500;
+    color: rgb(49, 49, 49);
+    max-width: 600px;
+    line-height: 28px;
+    margin-top: 40px;
+}
+
+.posts-found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color:  rgb(104, 103, 103);
+}
+
+section.setup .row-items{
+    margin-top: 30px;
+    justify-content: center;
+}
+.custom-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.big-wrapper{
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hero hr{
+    margin-top: 30px;
+}
+
+
+.buttons {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.buttons .btn-started{
+    padding: 5px 5px;
+    background-color: #00BF63;
+    height: 35px;
+    border-color: #00BF63 ;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    transition:.3s;
+    text-decoration: none;
+    min-width: 175px;
+    margin-left: 0px;
+}
+
+
+
+.buttons .btn-started:hover{
+    background-color:  white;
+    color: #00BF63;
+    border-color: #00BF63;
+    transform: scale(1) !important;
+    border-color: white ;
+}
+
+.buttons .btn-volunteer{
+    padding: 4px 20px;
+    margin-left: 5px;
+    background-color: #ffffff;
+    height: 35px;
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    transition:.3s;
+    text-decoration: none;
+    min-width: 175px;
+
+}
+
+.buttons .btn-volunteer:hover{
+    background-color:  white;
+    color: #00BF63;
+    border-color: #00BF63;
+    border-style: solid;
+    border-width: thin;
+    transform: scale(1) !important;
+}
+
+
+.buttons .play{
+    padding-right: 6px;
+}
+section.hero {
+    padding: 80px 0px;
+}
+
+.container-post{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#left-right-setup{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#left-setup{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#row-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-select{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+#search-bar-below{
+    /* margin-left: 55px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+#search-bar-up{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+.search-bar-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    min-width: 100px;
+}
+
+
+#filter-bar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    min-width: 200px;
+}
+
+
+#select-header{
+    margin-left: 5px;
+}
+
+#custom-row{
+    display: flex;
+    justify-content: center ;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 670px) {
+    #left-setup{    
+        margin-left: 1px;
+    }
+}
+
+
+@media only screen and (max-width: 870px) {
+    #people-img{
+        width: 100%;
+    }
+
+    #left{
+        width: 650px;
+    }
+    .bit-title{
+        font-size: 35px;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: black;
+    }
+    .text{
+        font-size: 15px;
+        font-weight: 500;
+        color: rgb(49, 49, 49);
+        max-width: 800px;
+        line-height: 18px;
+    }
+
+    .hero .container{
+        justify-content: center;
+    }
+
+    #right{
+        margin-top: 30px;
+    }
+
+    #search-bar-up{
+        margin-right: 50px;
+    }
+
+
+    .buttons .btn-started{
+        /* margin-left: 8px; */
+    }
+
+}
+
+
+@media only screen and (max-width: 1220px) and (min-width: 870px) {
+    .bit-title{
+        font-size: 35px;
+        font-weight: 700;
+        width: 450px;
+        text-transform: capitalize;
+        color: black;
+    }
+    .text{
+        font-size: 15px;
+        font-weight: 500;
+        width: 450px;
+        color: rgb(49, 49, 49);
+        max-width: 800px;
+        line-height: 18px;
+    }
+
+
+}
+
+@media only screen and (min-width: 870px) {
+    .buttons {
+        margin-top: 60px;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+    #search-bar-below{
+        margin-left: 50px;
+    }
+    /* #row-items{
+        margin-right: 200px;
+    } */
+}
+
+
+@media only screen and (max-width: 290px) {
+    #left-setup{    
+        margin-left: -2px;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-started{
+        margin-bottom: 10px;
+    }
+}

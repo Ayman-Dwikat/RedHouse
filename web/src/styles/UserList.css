@@ -1,0 +1,72 @@
+
+
+
+.pass-btn{
+    background-color: #00BF63;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 3px 8px;
+}
+
+.pass-btn:hover{
+    background-color:white;
+    color: #00BF63;
+    border-color: #00BF63;
+    border: solid;
+    border-width: 1px;
+}
+
+.delete-btn{
+    background-color: #d64040;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 3px 8px;
+}
+
+.delete-btn:hover{
+    background-color:white;
+    color: #d64040;
+    border-color: #d64040;
+    border: solid;
+    border-width: 1px;
+}
+
+.unpass-btn{
+    background-color: #8cbf00;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 3px 8px;
+}
+
+.unpass-btn:hover{
+    background-color:white;
+    color: #8cbf00;
+    border-color:#8cbf00;
+    border: solid;
+    border-width: 1px;
+}
+
+.profile-pic{
+    width: 40px;
+    border-radius: 40%;
+}
+
+#username-link{
+    font-size: 15px;
+    font-weight: 550;
+}
+
+#username-link:hover{
+    color: #00BF63;
+}
+
+
+@media only screen and (max-width: 670px) {
+    .pagination .page-num{
+        margin: 0px 0px;
+        padding: 4px 5px;
+    }
+}
