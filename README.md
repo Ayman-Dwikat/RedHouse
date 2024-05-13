@@ -3,9 +3,9 @@
 
 Red House operates as a specialized real estate management system, offering a
 comprehensive set of services in the field. Our platform arrange and simplify the processes for
-customers and landlords, providing options for buying, selling, leasing, and monthly or daily rentals
-properties. We enhance the user experience by incorporating features such as map-based property
-searches, user and property history services, and efficient contract and payments management.
+customers and landlords, providing options for buying, selling, leasing, and monthly or daily
+rentals properties. We enhance the user experience by incorporating features such as map-based
+property searches, user and property history services, and efficient contract and payments management.
 
 Our approach take on to following best practices in software engineering, leveraging the most
 suitable technologies for each aspect. Through analysis similar real-life systems, we identify
