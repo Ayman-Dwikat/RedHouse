@@ -1,6 +1,7 @@
 # RedHouse
 #### Real Estate Management System - Software Graduation Project
 
+
 Red House operates as a specialized real estate management system, offering a
 comprehensive set of services in the field. Our platform arrange and simplify the processes for
 customers and landlords, providing options for buying, selling, leasing, and monthly or daily
