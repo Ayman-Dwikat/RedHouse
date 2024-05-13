@@ -18,4 +18,5 @@ customers for their properties while assisting customers in finding properties t
 their specific requirements. Additionally, our platform offers robust contract and payment
 management services to facilitate self-tracking of transactions or collaboration with a lawyer.
 
-https://drive.google.com/drive/folders/1mgCpFYY66Ybi2Ok7_KHn9gIJC5QdLg7i?fbclid=IwAR2y1qwaAjD7zhmYKzOvhwVDzumK1R6AgCxEt-QxBhPmrrzHverAKuj-I1Q
+[Demo and project report delivered on Google Drive]([https://ayman-dwikat.github.io/HTML_And_CSS_Template_One/](https://drive.google.com/drive/folders/1mgCpFYY66Ybi2Ok7_KHn9gIJC5QdLg7i?fbclid=IwAR2y1qwaAjD7zhmYKzOvhwVDzumK1R6AgCxEt-QxBhPmrrzHverAKuj-I1Q)
+
