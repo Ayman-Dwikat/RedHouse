@@ -18,5 +18,5 @@ customers for their properties while assisting customers in finding properties t
 their specific requirements. Additionally, our platform offers robust contract and payment
 management services to facilitate self-tracking of transactions or collaboration with a lawyer.
 
-[Demo and project report delivered on Google Drive](https://drive.google.com/drive/folders/1mgCpFYY66Ybi2Ok7_KHn9gIJC5QdLg7i?fbclid=IwAR2y1qwaAjD7zhmYKzOvhwVDzumK1R6AgCxEt-QxBhPmrrzHverAKuj-I1Q)
+[Demo and project report delivered on Google Drive]([https://drive.google.com/drive/folders/1mgCpFYY66Ybi2Ok7_KHn9gIJC5QdLg7i?fbclid=IwAR2y1qwaAjD7zhmYKzOvhwVDzumK1R6AgCxEt-QxBhPmrrzHverAKuj-I1Q](https://drive.google.com/drive/folders/1vBHE6Y7Si31DkdiBC_q8AEGEJZwfQn1l?fbclid=IwAR2y1qwaAjD7zhmYKzOvhwVDzumK1R6AgCxEt-QxBhPmrrzHverAKuj-I1Q))
 
